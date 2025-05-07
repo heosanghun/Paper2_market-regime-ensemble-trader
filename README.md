@@ -45,6 +45,17 @@ Combines signals from multiple trading strategies, with weights dynamically adju
 - **Performance-Based Adjustment**: Learns from recent trading performance
 - **Comparative Analysis**: Tools to compare with Paper 1 results
 
+## Data Download
+
+프로젝트 실행에 필요한 시장 데이터는 다음 Google Drive 링크에서 다운로드할 수 있습니다:
+- **Google Drive**: [https://drive.google.com/drive/folders/1vHxKgrkjguXfgmIOUWqbbSdD1XXDnbSK?usp=sharing](https://drive.google.com/drive/folders/1vHxKgrkjguXfgmIOUWqbbSdD1XXDnbSK?usp=sharing)
+
+다운로드한 파일들을 `data/` 디렉토리에 위치시키세요. 데이터셋에는 다음이 포함됩니다:
+- 다양한 시장 상태(강세/약세/횡보)의 가격 데이터
+- 시장 상태 분석용 참조 데이터
+- 앙상블 테스트를 위한 전처리된 데이터
+- 성능 비교를 위한 벤치마크 데이터
+
 ## Installation
 1. Install required packages:
    ```
@@ -65,4 +76,4 @@ python run_comparative_analysis.py
 ## Notes
 - Detailed documentation available in the docs/ folder
 - Data and results are excluded from Git using .gitignore
-- This system requires Paper 1 components to be available in the parent directory 
+- This system requires Paper 1 components to be available in the parent directory
