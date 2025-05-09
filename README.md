@@ -49,8 +49,10 @@ Combines signals from multiple trading strategies, with weights dynamically adju
 
 프로젝트 실행에 필요한 시장 데이터는 다음 Google Drive 링크에서 다운로드할 수 있습니다:
 - **Google Drive**: [https://drive.google.com/drive/folders/1vHxKgrkjguXfgmIOUWqbbSdD1XXDnbSK?usp=sharing](https://drive.google.com/drive/folders/1vHxKgrkjguXfgmIOUWqbbSdD1XXDnbSK?usp=sharing)
+
 - 캔들 차트 이미지(224X224) 데이터 용량: 8.19GB/369,456장 | 2021-10-12 ~ 2023-12-19
 - 암호화폐 뉴스 기사(감성분석) 데이터 용량: 12.6MB/31,038개 |  2021-10-12 ~ 2023-12-19
+  
 다운로드한 파일들을 `data/` 디렉토리에 위치시키세요. 데이터셋에는 다음이 포함됩니다:
 - 다양한 시장 상태(강세/약세/횡보)의 가격 데이터
 - 시장 상태 분석용 참조 데이터
